@@ -1,0 +1,351 @@
+/***************
+ * barra de navegação vertical */
+/*
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url(../image/seta.png) no-repeat left center;
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../image/menu.png) no-repeat left bottom;
+}
+
+a:hover, .select a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+*/ 
+
+/***************************
+ * Barra de navegação horizontal 
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../image/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;	
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../image/divisor.png) repeat-y left top;
+}
+
+ul .first a {
+	background: none;
+}
+
+ul a:hover {
+	color: #085662;
+	background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+	color: #085662;
+	background: #44cade;
+}
+*/
+
+ /*********************
+  * Navegação com abas
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+
+ul li {
+	float: left;
+	background: url(../image/aba-direita.png) no-repeat top right;
+}
+
+li a {
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background: url(../image/aba-esquerda.png) no-repeat top left;
+	color: #fff;
+}
+
+ul a:hover {
+	color: #894a1f;
+}
+
+ul #actual {
+	background: url(../image/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #actual a {
+	background: url(../image/aba-esquerda-atual.png) no-repeat top left;
+}
+*/
+
+/*********************
+ * Layout líquido
+
+Body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {
+	width: 960px;/*720px
+	margin: 0 auto;
+	background: #fff url('../image/coluna.png') repeat-y left top;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#marca {
+	width: 100%;
+	height: 200px;
+	background: #255992 url('../image/cabecalho2.jpg') no-repeat center;
+	text-align: center;
+	line-height: 200px;
+}
+
+img.img-notice {
+	width: 94%;
+	padding: 2%;
+	max-width: 600px;
+}
+
+/*
+#image {
+	width: 90%;
+	overflow: hidden;
+}
+
+
+#conteudo {
+	width: 75%;/*520px
+	float: right;
+}
+
+#conteudo2 {
+	width: 64%;/*320px
+	float: left;
+}
+
+#conteudo3 {
+	width: 34%;/*180px
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo3 h1,
+#conteudo3 h2,
+#conteudo3 h3,
+#conteudo3 p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#navegacao {
+	width: 23%;/*180px
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*background: #d1d1d1;
+}
+
+#navegacao ul {
+	list-style: none;
+}
+
+#navegacao li a {
+	text-decoration: none;
+}
+
+#rodape {
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+*/
+
+/*******************
+ * Estilizando tabelas
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table {
+	width: 600px;
+	border-collapse: collapse;separate, collapse 
+}
+
+th, td {
+	padding: 7px;
+}
+
+th {
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado {
+	background: #efefef;
+}
+
+tr:hover {
+	background-color: #c3e6e5;
+}
+
+.numero {
+	text-align: right;
+}
+*/
+
+/*********************
+ * Estilizando formulários 
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	background: #f8f8f8;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input [type='text'] {
+	width: 200px;
+}
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+
+.radio {
+	margin-right: 1em;
+}
+*/
+body {
+	font-family: "Trebuchet ME", Helvetica, sans-serif;
+	background: #643d87 url(../image/fundo.jpg) no-repeat top center;
+}
+
+#container {
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+#container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+
+}
+
+input {
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email {
+	background-image: url(../image/icone-usuario.png);
+}
+
+input.senha {
+	background-image: url(../image/icone-cadeado.png);
+}
+
+input.submit {
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	background: -webkit-llinear-gradient(to bottom, #faa600, #f68a00);
+	background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+	background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+}

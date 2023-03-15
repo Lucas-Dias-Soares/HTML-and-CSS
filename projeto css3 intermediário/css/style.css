@@ -1,0 +1,159 @@
+/*#box {
+	border: 1px solid red;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding: 20px 15px 10px 5px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin: 10px;
+	width: 350px;
+}
+
+h1 {
+	border: 1px solid red;
+	padding: 10px;
+	margin: 1px;
+}
+
+
+#main {
+	border: 1px solid red;
+	background: orange;
+}
+
+.conteudo {
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px;
+}
+
+.conteudo1 {
+	background: red;
+	border: 1px solid gray;
+	width: 250px;
+	height: 350px;
+	margin: 10px;
+	float: left;
+}
+
+.conteudo-zero {
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px;
+}
+
+.clear {
+	clear: both;
+}*/
+
+/*body {
+	background: #007fc7;
+}
+
+#main {
+	width: 920px;
+	border: 1px solid red;
+}
+
+.noticia {
+	background: #e5e5e5;
+	padding: 5px;
+	width: 280px;
+	margin: 7px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.galeria {
+	background: white;
+	width: 275px;
+	padding: 15px;
+	float: left;
+}*/
+
+/* #container {
+	background: #fff;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
+}
+
+h1 {
+
+}
+
+p {
+	width: 400px;;
+}
+
+.relative {
+	border: 1px solid red;
+	position: relative;
+	top, right, bottom e left
+	top: 0px;
+	left: 0px;
+}
+
+.absolute {
+	background: #f2f2f2;
+	border: 1px solid darkred;
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
+
+.fixed {
+	background: #f2f2f2;
+	border: 1px solid darkred;
+	margin: 0px;
+	position: fixed;
+	top: 80px;
+	right: 80px;
+}*/
+
+.conteudo1 {
+	border: 1px solid red;
+	background: orange;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 0;
+}
+
+.conteudo2 {
+	border: 1px solid red;
+	background: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 1;
+}
+
+.conteudo3 {
+	border: 1px solid red;
+	background: yellow;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 160px;
+	left: 160px;
+	z-index: 2;
+}
+
